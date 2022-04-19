@@ -133,7 +133,7 @@ header img{
     background-color: #212121;
     padding: 8px;
     margin-top: 10px;
-    width: 340px;
+    width: 300px;
 }
 
 
@@ -142,7 +142,7 @@ header img{
 }
 
 .formulario #submit{
-    width: 340px;
+    width: 320px;
     height: 40px;
     color: black;
     cursor: pointer;

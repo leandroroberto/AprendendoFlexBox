@@ -57,11 +57,6 @@ header img{
     transition: .4s ease-in-out;
 }
 
-h1 video{
-    width: 200px;
-    height: 200px;
-    align-items: center;
-}
 
 .produts {
     display: flex;
@@ -93,8 +88,9 @@ h1 video{
 }
 
 .titulo-consoles img{
+    margin-top: 60px;
     width: 200px;
-    height: 200;
+    height: 10%;
 }
 .footer p{
     margin-top: 200px;

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><a href="index.html"></a><img src="./img/icone-logo.png" alt="">NewsBox</a></div>
+        <ul class="menu">
+            <li><a href="index.html">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+    </header>
+    <form action="">
+        <div class="div-contatos">
+        <h1 id="titulo-contato">Contato</h1>
+        <h3 id="subtitulo-contato">Entre em contato conosco através do formulário abaixo</h3>
+        </div>
+        <br>
+        <div class="formulario">
+            <label class="labelUser" for="nome">Nome (Obrigatório)</label><br>
+            <input class="inputUser" type="text" name="nome" id="nome" placeholder="Digite seu nome"required>
+            <br>
+            <label class="labelUser" for="email">Email (Obrigatório)</label><br>
+            <input class="inputUser" type="email" name="email" id="email" placeholder="Email" required>
+            <br>
+            <label  id="label-mensagem" class="labelUser" for="mensagem">Mensagem</label> <br>
+            <textarea class="area-mensagem" placeholder="Digite sua mensagem..." name="area-mensagem" id="mensagem" cols="50" rows="10" required></textarea>
+            <br>
+            <input id="submit" type="submit" value="Enviar">
+        </div>
+    </form>
+    
+</body>
+</html>
